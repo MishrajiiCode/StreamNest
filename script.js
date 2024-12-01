@@ -1,6 +1,6 @@
 // Movies and Web Series Data
 const movies = [
-    { title: "Sikandar Ka Muqaddar", img: "movies img/sikandar.jpeg", lang: "hindi", genre: "drama", link: "https://fast-dl.biz/dl/196a07" },
+    { title: "Sikandar Ka Muqaddar", img: "movies img/sikandar.png", lang: "hindi", genre: "drama", link: "https://fast-dl.biz/dl/196a07" },
     { title: "I Want to Talk", img: "movies img/i want to talk.png", lang: "hindi", genre: "drama", link: "https://gofile.io/d/WcYBZ8" },
     { title: "The Sabarmati Report", img: "movies img/1.png", lang: "hindi", genre: "drama", link: "https://gofile.io/d/PU6G5U" },
     { title: "Pushpa: The Rise – Part 1", img: "movies img/2.png", lang: "hindi",genre: "drama", link: "https://gofile.io/d/sM2jCS" },
