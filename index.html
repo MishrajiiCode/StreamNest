@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamNest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">StreamNest</h1>
+            <ul class="nav-links">
+                <li><a href="#movies" onclick="showSection('movies')">Movies</a></li>
+                <li><a href="#webseries" onclick="showSection('webseries')">Web Series</a></li>
+                <li class="dropdown">
+                    <a href="#">Genres</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="filterByGenre('horror')">Horror</a></li>
+                        <li><a href="#" onclick="filterByGenre('drama')">Drama</a></li>
+                        <li><a href="#" onclick="filterByGenre('sci-fi')">Sci-Fi</a></li>
+                        <li><a href="#" onclick="filterByGenre('bollywood')">Bollywood</a></li>
+                        <li><a href="#" onclick="filterByGenre('hollywood')">Hollywood</a></li>
+                        <li><a href="#" onclick="filterByGenre('family')">Family</a></li>
+                        <li><a href="#" onclick="filterByGenre('thriller')">Thriller</a></li>
+                        <li><a href="#" onclick="filterByGenre('bhojpuri')">Bhojpuri</a></li>
+                        <li><a href="#" onclick="filterByGenre('mystery')">Mystery</a></li>
+                        <li><a href="#" onclick="filterByGenre('punjabi')">Punjabi</a></li>
+                        <li><a href="#" onclick="filterByGenre('tamil')">Tamil</a></li>
+                        <li><a href="#" onclick="filterByGenre('adventure')">Adventure</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="language-select">Language</label>
+                    <select id="language-select">
+                        <option value="all">All</option>
+                        <option value="hindi">Hindi</option>
+                        <option value="english">English</option>
+                    </select>
+                </li>
+                <li><input type="text" id="search-bar" placeholder="Search..."></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Movies Section -->
+        <section id="movies" class="section">
+            <h2>Movies</h2>
+            <div class="grid" id="movies-grid">
+                <!-- Movie Cards will populate here -->
+            </div>
+        </section>
+
+        <!-- Web Series Section -->
+        <section id="webseries" class="section">
+            <h2>Web Series</h2>
+            <div class="grid" id="webseries-grid">
+                <!-- Web Series Cards will populate here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 StreamNest | All Rights Reserved</p>
+        <a href="mailto:contact@streamnest.com">Contact Us</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
