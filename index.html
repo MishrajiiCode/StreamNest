@@ -3,14 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StreamNest.com</title>
+    <meta name="description" content="StreamNest: Your ultimate destination for Movies and Web Series. Explore genres like Horror, Drama, Action, Sci-Fi, and more.">
+    <meta name="keywords" content="Movies, Web Series, StreamNest, Horror, Drama, Action, Sci-Fi, Bollywood, Hollywood, Adventure">
+    <meta name="author" content="StreamNest Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.streamnest.com">
+    <meta property="og:title" content="StreamNest - Explore Movies and Web Series">
+    <meta property="og:description" content="StreamNest offers the latest Movies and Web Series in various genres and languages. Enjoy streaming content tailored to your preferences.">
+    <meta property="og:image" content="path-to-your-image/streamnest-thumbnail.jpg">
+    <meta property="og:url" content="https://www.streamnest.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="StreamNest - Explore Movies and Web Series">
+    <meta name="twitter:description" content="Explore the best Movies and Web Series with StreamNest. Browse by genre, language, and more.">
+    <meta name="twitter:image" content="path-to-your-image/streamnest-thumbnail.jpg">
+    <title>StreamNest - Watch Movies & Web Series Online</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <header>
-        <nav class="navbar">
-            <h1 class="logo">StreamNest.com</h1>
+        <nav class="navbar" role="navigation">
+            <h1 class="logo">
+                <a href="https://www.streamnest.com" title="StreamNest - Your Home for Movies and Web Series">
+                    StreamNest.com
+                </a>
+            </h1>
             <ul class="nav-links">
                 <li><a href="#movies" onclick="showSection('movies')">Movies</a></li>
                 <li><a href="#webseries" onclick="showSection('webseries')">Web Series</a></li>
@@ -19,6 +37,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="#" onclick="filterByGenre('horror')">Horror</a></li>
                         <li><a href="#" onclick="filterByGenre('drama')">Drama</a></li>
+                        <li><a href="#" onclick="filterByGenre('action')">Action</a></li>
                         <li><a href="#" onclick="filterByGenre('sci-fi')">Sci-Fi</a></li>
                         <li><a href="#" onclick="filterByGenre('bollywood')">Bollywood</a></li>
                         <li><a href="#" onclick="filterByGenre('hollywood')">Hollywood</a></li>
@@ -33,13 +52,16 @@
                 </li>
                 <li>
                     <label for="language-select">Language</label>
-                    <select id="language-select">
+                    <select id="language-select" aria-label="Select language">
                         <option value="all">All</option>
                         <option value="hindi">Hindi</option>
                         <option value="english">English</option>
+                        <option value="punjabi">Punjabi</option>
                     </select>
                 </li>
-                <li><input type="text" id="search-bar" placeholder="Search..."></li>
+                <li>
+                    <input type="text" id="search-bar" placeholder="Search..." aria-label="Search content">
+                </li>
             </ul>
         </nav>
     </header>
@@ -47,16 +69,16 @@
     <!-- Main Content -->
     <main>
         <!-- Movies Section -->
-        <section id="movies" class="section">
-            <h2>Movies</h2>
+        <section id="movies" class="section" aria-labelledby="movies-heading">
+            <h2 id="movies-heading">Movies</h2>
             <div class="grid" id="movies-grid">
                 <!-- Movie Cards will populate here -->
             </div>
         </section>
 
         <!-- Web Series Section -->
-        <section id="webseries" class="section">
-            <h2>Web Series</h2>
+        <section id="webseries" class="section" aria-labelledby="webseries-heading">
+            <h2 id="webseries-heading">Web Series</h2>
             <div class="grid" id="webseries-grid">
                 <!-- Web Series Cards will populate here -->
             </div>
@@ -65,10 +87,27 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 StreamNest | All Rights Reserved</p>
+        <p>&copy; 2024 StreamNest.com | All Rights Reserved</p>
         <a href="mailto:contact@streamnest.com">Contact Us</a>
+        <a href="/sitemap.xml" title="View Sitemap">Sitemap</a>
     </footer>
 
     <script src="script.js"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Movie",
+          "name": "Inception",
+          "image": "path-to-image.jpg",
+          "description": "A mind-bending thriller by Christopher Nolan.",
+          "director": {
+            "@type": "Person",
+            "name": "Christopher Nolan"
+          },
+          "genre": ["Sci-Fi", "Action"],
+          "datePublished": "2010-07-16"
+        }
+        </script>
+        
 </body>
 </html>
