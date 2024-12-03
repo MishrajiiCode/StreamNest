@@ -20,20 +20,21 @@ const movies = [
     { title: "Devara", img: "movies img/16.png", lang: "hindi",genre: "action", link: "https://fast-dl.biz/dl/3f91fb" },
     { title: "Bhool Bhulaiyaa 2", img: "movies img/17.png", lang: "hindi",genre: "horror", link: "https://mega.nz/file/MCczyaRb#XEC084UZcY9dh3a0jcJwrL-_wRgIHvaRZYLP3D3H0e0" },
     { title: "Venom: The Last Dance ", img: "movies img/18.png", lang: "english",genre: "drama", link: "https://fast-dl.biz/dl/ff58e9" },
-    { title: "Tiger 3", img: "movies img/19.png", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/bb/8ff36b" },
-    { title: "Dunki ", img: "movies img/20.png", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/bb/4940d0" },
-    { title: "Rocky Aur Rani Kii Prem Kahaani ", img: "movies img/21.png", lang: "hindi",genre: "drama", link: "https://download.megaup.net/?idurl=0lixLaV5L89JKamcHXUbeg7YMV1rUtUeq2lhsvqePcYfjBwoEis16TMso3H8/iz8vmfwJEvAO0YLerkWiT/PbQu8Ig2LPFhOxKZrTngfouMOczke+2wYPEL028Z5HgHQWDVneEOKBaRVUvxn+hg3Ig==&idfilename=Rocky%20Aur%20Rani%20Kii%20Prem%20Kahaani%202023%20Hindi%20www.downloadhub.us%201080p%20HDRip%20ESubs.mkv&idfilesize=2.87%20GB" },
-    { title: "Jawan", img: "movies img/22.png", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/dl/34b212" },
-    { title: "Fighter", img: "movies img/23.png", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/dl/926f92" },
-    { title: "Bhediya", img: "movies img/24.png", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/bb/66676c" },
-    { title: "Laal Singh Chaddha", img: "movies img/25.png", lang: "hindi",genre: "drama", link: "https://waaw.to/watch_video.php?v=VVNOVXdFblhPUmZZYzg3eGp3OXJQbUZGUzJybmdsb0lLNUpyb2ZROHF4dkc5V01jY1hqeWFjWlhRRWlvNkc0YQ%3D%3D#iss=MTAzLjE3OS4xLjI1" },
-    { title: "Heropanti 2", img: "movie10.jpg", lang: "hindi",genre: "drama", link: "https://send.cm/d/BYLE" },
-    { title: "Kisi Ka Bhai Kisi Ki Jaan ", img: "movie10.jpg", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/bb/73401e" },
-    { title: "The Promised Land", img: "movie10.jpg", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/dl/cb0e49" },
-    { title: "Satyaprem Ki Katha ", img: "movie10.jpg", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/bb/d9d8ab" },
-    { title: "Shazam! Fury of the Gods", img: "movie10.jpg", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/bb/09189c" },
-    { title: "Drishyam 2", img: "movie10.jpg", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/bb/f0c884" },
-    { title: "Maharaja", img: "movie10.jpg", lang: "hindi",genre: "drama", link: "https://fast-dl.biz/dl/269f6e" },
+    { title: "Tiger 3", img: "movies img/19.png", lang: "english",genre: "drama", link: "https://fast-dl.biz/bb/8ff36b" },
+    { title: "Dunki ", img: "movies img/20.png", lang: "english",genre: "drama", link: "https://fast-dl.biz/bb/4940d0" },
+    { title: "Rocky Aur Rani Kii Prem Kahaani ", img: "movies img/21.png", lang: "english",genre: "drama", link: "https://download.megaup.net/?idurl=0lixLaV5L89JKamcHXUbeg7YMV1rUtUeq2lhsvqePcYfjBwoEis16TMso3H8/iz8vmfwJEvAO0YLerkWiT/PbQu8Ig2LPFhOxKZrTngfouMOczke+2wYPEL028Z5HgHQWDVneEOKBaRVUvxn+hg3Ig==&idfilename=Rocky%20Aur%20Rani%20Kii%20Prem%20Kahaani%202023%20Hindi%20www.downloadhub.us%201080p%20HDRip%20ESubs.mkv&idfilesize=2.87%20GB" },
+    { title: "Jawan", img: "movies img/22.png", lang: "english",genre: "drama", link: "https://fast-dl.biz/dl/34b212" },
+    { title: "Fighter", img: "movies img/23.png", lang: "english",genre: "drama", link: "https://fast-dl.biz/dl/926f92" },
+    { title: "Bhediya", img: "movies img/24.png", lang: "english",genre: "drama", link: "https://fast-dl.biz/bb/66676c" },
+    { title: "Laal Singh Chaddha", img: "movies img/25.png", lang: "english",genre: "drama", link: "https://waaw.to/watch_video.php?v=VVNOVXdFblhPUmZZYzg3eGp3OXJQbUZGUzJybmdsb0lLNUpyb2ZROHF4dkc5V01jY1hqeWFjWlhRRWlvNkc0YQ%3D%3D#iss=MTAzLjE3OS4xLjI1" },
+    { title: "Heropanti 2", img: "movie10.jpg", lang: "english",genre: "drama", link: "https://send.cm/d/BYLE" },
+    { title: "Kisi Ka Bhai Kisi Ki Jaan ", img: "movie10.jpg", lang: "english",genre: "drama", link: "https://fast-dl.biz/bb/73401e" },
+    { title: "The Promised Land", img: "movie10.jpg", lang: "english",genre: "drama", link: "https://fast-dl.biz/dl/cb0e49" },
+    { title: "Satyaprem Ki Katha ", img: "movie10.jpg", lang: "english",genre: "drama", link: "https://fast-dl.biz/bb/d9d8ab" },
+    { title: "Shazam! Fury of the Gods", img: "movie10.jpg", lang: "english",genre: "drama", link: "https://fast-dl.biz/bb/09189c" },
+    { title: "Drishyam 2", img: "movie10.jpg", lang: "english",genre: "drama", link: "https://fast-dl.biz/bb/f0c884" },
+    { title: "Maharaja", img: "movie10.jpg", lang: "english",genre: "drama", link: "https://fast-dl.biz/dl/269f6e" },
+    
 ];
 
 const webSeries = [
@@ -48,6 +49,66 @@ const webSeries = [
     { title: "Web Series 9", img: "webseries9.jpg", lang: "hindi", link: "webseries9.mp4" },
     { title: "Web Series 10", img: "webseries10.jpg", lang: "english", link: "webseries10.mp4" },   
 ];
+
+const itemsPerPage = 20;
+let currentPage = 1;
+
+// Paginate Data
+function paginateData(data, page) {
+    const start = (page - 1) * itemsPerPage;
+    return data.slice(start, start + itemsPerPage);
+}
+
+// Render Grid
+function renderGrid(gridId, data) {
+    const grid = document.getElementById(gridId);
+    grid.innerHTML = data
+        .map(item => `
+            <div class="card">
+                <img src="${item.img}" alt="${item.title}">
+                <h3>${item.title}</h3>
+                <a href="${item.link}" target="_blank">View</a>
+            </div>
+        `)
+        .join('');
+}
+
+// Render Pagination
+function renderPagination() {
+    const totalPages = Math.ceil(Math.max(movies.length, webSeries.length) / itemsPerPage);
+    const pageNumbers = document.getElementById('page-numbers');
+    pageNumbers.innerHTML = '';
+    for (let i = 1; i <= totalPages; i++) {
+        const button = document.createElement('button');
+        button.textContent = i;
+        button.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+        button.onclick = () => {
+            currentPage = i;
+            updateContent();
+        };
+        pageNumbers.appendChild(button);
+    }
+}
+
+// Update Content
+function updateContent() {
+    renderGrid('movies-grid', paginateData(movies, currentPage));
+    renderGrid('webseries-grid', paginateData(webSeries, currentPage));
+    renderPagination();
+}
+
+// Change Page
+function changePage(direction) {
+    const totalPages = Math.ceil(Math.max(movies.length, webSeries.length) / itemsPerPage);
+    if (currentPage + direction > 0 && currentPage + direction <= totalPages) {
+        currentPage += direction;
+        updateContent();
+    }
+}
+
+// Initial Render
+updateContent();
+
 
 // Filter by Genre
 function filterByGenre(genre) {
